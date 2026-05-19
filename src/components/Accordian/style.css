@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN WRAPPER */
+.acc-wrapper {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  padding-top: 50px;
+
+  background: #ffffff;
+}
+
+/* ACCORDION CONTAINER */
+.accordian {
+  width: 650px;
+}
+
+/* EACH BOX */
+.item {
+  background: #6b4700;
+
+  color: white;
+
+  margin-bottom: 20px;
+
+  padding: 28px 25px;
+
+  border-radius: 15px;
+
+  text-align: center;
+
+  border: none;
+
+  box-shadow: none;
+}
+
+/* QUESTION */
+.item h3 {
+  font-size: 22px;
+  font-weight: bold;
+
+  line-height: 1.4;
+
+  margin-bottom: 20px;
+}
+
+/* PLUS / MINUS ICON */
+.icon {
+  font-size: 35px;
+
+  cursor: pointer;
+
+  user-select: none;
+
+  transition: 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+/* ANSWER */
+.acc-content {
+  margin-top: 20px;
+
+  font-size: 17px;
+
+  line-height: 1.7;
+
+  color: #f5f5f5;
+}
