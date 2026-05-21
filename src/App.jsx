@@ -1,14 +1,21 @@
-import { useState } from 'react'
-import './App.css'
-import Accordian from './components/Accordian'
+import "./App.css";
+import Accordian from "./components/Accordian";
+import RandomColor from "./components/RandomColor";
+
+
+
 
 function App() {
   return (
     <div className="App">
-      {/* Accordian componet */}
-      <Accordian />
+      {/* Accordian component */}
+       {/* <Accordian/>  */}
+
+      {/* Random color component */}
+        <RandomColor />
+
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
