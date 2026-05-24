@@ -4,7 +4,7 @@ import ImageSlider from "./components/ImageSlider";
 import LoadMoreData from "./components/LoadMoreData";
 import RandomColor from "./components/RandomColor";
 import StarRating from "./components/StarRating";
-import {TreeView}  from "./components/TreeView";
+import TreeView from "./components/TreeView";
 
 
 
