@@ -30,8 +30,11 @@ function App() {
       {/* Load More Data */}
         {/* <LoadMoreData /> */}
 
-    {/* Tree view componet */}
-    <TreeView />
+      {/* Tree view componet */}
+      {/* <TreeView menus={menus} /> */}
+
+      {/* Custom Modal Poppup */}
+        <modalTest />
     </div>
   );
 }
