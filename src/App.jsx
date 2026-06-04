@@ -38,7 +38,7 @@ function App() {
         {/* <modalTest /> */}
 
       {/* Qr code Generator */}
-      <QRCodeGenerator/>
+      {/* <QRCodeGenerator/> */}
     </div>
   );
 }
