@@ -2,6 +2,7 @@ import "./App.css";
 import Accordian from "./components/Accordian";
 import ImageSlider from "./components/ImageSlider";
 import LoadMoreData from "./components/LoadMoreData";
+import QRCodeGenerator from "./components/QrCodeGenerator";
 import RandomColor from "./components/RandomColor";
 import StarRating from "./components/StarRating";
 import TreeView from "./components/TreeView";
@@ -34,7 +35,10 @@ function App() {
       {/* <TreeView menus={menus} /> */}
 
       {/* Custom Modal Poppup */}
-        <modalTest />
+        {/* <modalTest /> */}
+
+      {/* Qr code Generator */}
+      <QRCodeGenerator/>
     </div>
   );
 }
