@@ -1,5 +1,6 @@
 import "./App.css";
 import Accordian from "./components/Accordian";
+import ModalTest from "./components/Custommodalpopup/modaltest";
 import TabTest from "./components/CustomTabs/tabtest";
 import ImageSlider from "./components/ImageSlider";
 import LightDarkMode from "./components/LightDarkMode";
@@ -50,7 +51,39 @@ function App() {
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
       {/* Custom Tabs */}
-        <TabTest/>
+        {/* <TabTest/> */}
+      
+      {/* Custom Modal Component */}
+       <ModalTest/>
+
+      {/* Github profile finder */}
+      {/* <GithubProfileFinder/> */}
+
+      {/* Search Autocomplete */}
+      {/* <SearchAutocomplete/> */}
+
+      {/* Tic tac toe */}
+      {/* <TicTacToe/> */}
+
+      {/* Feature Flag IMplementation */}
+      {/* <FeatureFlagGlobalState>
+        <FeatureFlags />
+      </FeatureFlagGlobalState> */}
+
+      {/* useFetch - Custom Hook Test*/}
+      {/* <UseFetchHookTest/> */}
+
+      {/* Use Onclick Outside Hook Test */}
+      {/* <UseOnclickOutsideTest/> */}
+
+      {/* Use Window Resize Hook Test */}
+      {/* <UseWindowResizeTest/> */}
+
+      {/* Scroll to Top and Bottom */}
+      {/* <ScrollToTopAndBottom/> */}
+
+      {/* Scroll to a Particular Section */}
+      {/* <ScrollToSection/> */}
 
     </div>
   );
