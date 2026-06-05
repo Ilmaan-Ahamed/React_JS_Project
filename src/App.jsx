@@ -1,6 +1,7 @@
 import "./App.css";
 import Accordian from "./components/Accordian";
 import ImageSlider from "./components/ImageSlider";
+import LightDarkMode from "./components/LightDarkMode";
 import LoadMoreData from "./components/LoadMoreData";
 import QRCodeGenerator from "./components/QrCodeGenerator";
 import RandomColor from "./components/RandomColor";
@@ -39,6 +40,9 @@ function App() {
 
       {/* Qr code Generator */}
       {/* <QRCodeGenerator/> */}
+
+      {/* Light mode Dark mode */}
+       <LightDarkMode />
     </div>
   );
 }
