@@ -9,8 +9,18 @@ export default function ScrollIndicator({ url }) {
 
   async function fetchData(getUrl) {
     try {
+      if (!getUrl) {
+        throw new Error("No URL provided for fetch.");
+      }
       setLoading(true);
       const response = await fetch(getUrl);
+      if (!response.ok) {
+        throw new Error(`${response.status} ${response.statusText}`);
+      }
+      const contentType = response.headers.get("content-type") || "";
+      if (!contentType.includes("application/json")) {
+        throw new Error("Expected JSON response but received HTML or another content type.");
+      }
       const data = await response.json();
       if (data && data.products && data.products.length > 0) {
         setData(data.products);
@@ -48,7 +58,7 @@ export default function ScrollIndicator({ url }) {
     window.addEventListener("scroll", handleScrollPercentage);
 
     return () => {
-      window.removeEventListener("scroll", () => {});
+      window.removeEventListener("scroll", handleScrollPercentage);
     };
   }, []);
 
