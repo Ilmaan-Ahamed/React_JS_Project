@@ -16,6 +16,7 @@ import StarRating from "./components/StarRating";
 import TicTacToe from "./components/TicTactToe";
 import TreeView from "./components/TreeView";
 import UseFetchHookTest from "./components/UseFetch/test";
+import UseWindowResizeTest from "./components/UseIWindowResize/test";
 import UseOnclickOutsideTest from "./components/UseOutsideClick/test";
 
 
@@ -84,7 +85,7 @@ function App() {
       {/* <UseOnclickOutsideTest/> */}
 
       {/* Use Window Resize Hook Test */}
-      <UseWindowResizeTest/>
+      {/* <UseWindowResizeTest/> */}
 
       {/* Scroll to Top and Bottom */}
       {/* <ScrollToTopAndBottom/> */}
