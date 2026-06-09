@@ -10,7 +10,7 @@ import LightDarkMode from "./components/LightDarkMode";
 import LoadMoreData from "./components/LoadMoreData";
 import QRCodeGenerator from "./components/QrCodeGenerator";
 import RandomColor from "./components/RandomColor";
-import ScrollIndicator from "./components/ScrollIndicator";
+import ScrollIndicator from "./components/Scroll-indicator";
 import ScrollToTopAndBottom from "./components/ScrollToTopandBottom";
 import SearchAutocomplete from "./components/SearchAutoCompleteWithApi";
 import StarRating from "./components/StarRating";
@@ -92,7 +92,7 @@ function App() {
       {/* <ScrollToTopAndBottom/> */}
 
       {/* Scroll to a Particular Section */}
-      <ScrollToSection/>
+      <ScrollIndicator/>
 
     </div>
   );
