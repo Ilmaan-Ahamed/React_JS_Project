@@ -71,12 +71,12 @@ function App() {
       {/* <TicTacToe/> */}
 
       {/* Feature Flag IMplementation */}
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
 
       {/* useFetch - Custom Hook Test*/}
-      {/* <UseFetchHookTest/> */}
+      <UseFetchHookTest/>
 
       {/* Use Onclick Outside Hook Test */}
       {/* <UseOnclickOutsideTest/> */}
