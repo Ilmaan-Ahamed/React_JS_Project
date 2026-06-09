@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import useFetch from "../use-fetch";
+import useFetch from "../UseFetch";
 
 export default function ScrollToTopAndBottom() {
   const { data, error, pending } = useFetch(
