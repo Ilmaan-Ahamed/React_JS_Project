@@ -15,6 +15,7 @@ import SearchAutocomplete from "./components/SearchAutoCompleteWithApi";
 import StarRating from "./components/StarRating";
 import TicTacToe from "./components/TicTactToe";
 import TreeView from "./components/TreeView";
+import UseFetchHookTest from "./components/UseFetch/test";
 
 
 
