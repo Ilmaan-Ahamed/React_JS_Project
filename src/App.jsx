@@ -92,7 +92,7 @@ function App() {
       {/* <ScrollToTopAndBottom/> */}
 
       {/* Scroll to a Particular Section */}
-      <ScrollIndicator/>
+      {/* <ScrollIndicator/> */}
 
     </div>
   );
