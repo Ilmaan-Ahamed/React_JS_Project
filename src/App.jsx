@@ -10,6 +10,7 @@ import QRCodeGenerator from "./components/QrCodeGenerator";
 import RandomColor from "./components/RandomColor";
 import ScrollIndicator from "./components/ScrollIndicator";
 import StarRating from "./components/StarRating";
+import TicTacToe from "./components/TicTactToe";
 import TreeView from "./components/TreeView";
 
 
@@ -58,13 +59,13 @@ function App() {
        {/* <ModalTest/> */}
 
       {/* Github profile finder */}
-      <GithubProfileFinder/>
+      {/* <GithubProfileFinder/> */}
 
       {/* Search Autocomplete */}
       {/* <SearchAutocomplete/> */}
 
       {/* Tic tac toe */}
-      {/* <TicTacToe/> */}
+      <TicTacToe/>
 
       {/* Feature Flag IMplementation */}
       {/* <FeatureFlagGlobalState>
