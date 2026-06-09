@@ -77,7 +77,7 @@ function App() {
       </FeatureFlagGlobalState> */}
 
       {/* useFetch - Custom Hook Test*/}
-      <UseFetchHookTest/>
+      {/* <UseFetchHookTest/> */}
 
       {/* Use Onclick Outside Hook Test */}
       {/* <UseOnclickOutsideTest/> */}
