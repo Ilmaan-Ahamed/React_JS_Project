@@ -63,7 +63,7 @@ function App() {
       {/* <GithubProfileFinder/> */}
 
       {/* Search Autocomplete */}
-      <SearchAutocomplete/>
+      {/* <SearchAutocomplete/> */}
 
       {/* Tic tac toe */}
       {/* <TicTacToe/> */}
