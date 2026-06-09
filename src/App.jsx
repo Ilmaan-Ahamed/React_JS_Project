@@ -2,6 +2,8 @@ import "./App.css";
 import Accordian from "./components/Accordian";
 import ModalTest from "./components/Custommodalpopup/modaltest";
 import TabTest from "./components/CustomTabs/tabtest";
+import FeatureFlags from "./components/FeatureFlag";
+import FeatureFlagGlobalState from "./components/FeatureFlag/context";
 import GithubProfileFinder from "./components/GithubProfileFinder";
 import ImageSlider from "./components/ImageSlider";
 import LightDarkMode from "./components/LightDarkMode";
@@ -69,9 +71,9 @@ function App() {
       {/* <TicTacToe/> */}
 
       {/* Feature Flag IMplementation */}
-      {/* <FeatureFlagGlobalState>
+      <FeatureFlagGlobalState>
         <FeatureFlags />
-      </FeatureFlagGlobalState> */}
+      </FeatureFlagGlobalState>
 
       {/* useFetch - Custom Hook Test*/}
       {/* <UseFetchHookTest/> */}
